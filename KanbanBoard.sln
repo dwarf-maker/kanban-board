@@ -1,6 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanBoard", "KanbanBoard\KanbanBoard.csproj", "{1006E16D-6548-4181-9186-5440D05B4AAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanBoard.API", "KanbanBoard.API\KanbanBoard.API.csproj", "{1006E16D-6548-4181-9186-5440D05B4AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanBoard.Domain", "KanbanBoard.Domain\KanbanBoard.Domain.csproj", "{322F35EA-A6CC-4963-8050-6E1270C68003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanBoard.Application", "KanbanBoard.Application\KanbanBoard.Application.csproj", "{9B91471A-54D1-4A5A-9CB9-6EBE27344C53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanBoard.Infrastructure", "KanbanBoard.Infrastructure\KanbanBoard.Infrastructure.csproj", "{0D188F93-7AB8-4562-81FB-52EACB6E3574}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +18,17 @@ Global
 		{1006E16D-6548-4181-9186-5440D05B4AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1006E16D-6548-4181-9186-5440D05B4AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1006E16D-6548-4181-9186-5440D05B4AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322F35EA-A6CC-4963-8050-6E1270C68003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322F35EA-A6CC-4963-8050-6E1270C68003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322F35EA-A6CC-4963-8050-6E1270C68003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322F35EA-A6CC-4963-8050-6E1270C68003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B91471A-54D1-4A5A-9CB9-6EBE27344C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B91471A-54D1-4A5A-9CB9-6EBE27344C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B91471A-54D1-4A5A-9CB9-6EBE27344C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B91471A-54D1-4A5A-9CB9-6EBE27344C53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D188F93-7AB8-4562-81FB-52EACB6E3574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D188F93-7AB8-4562-81FB-52EACB6E3574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D188F93-7AB8-4562-81FB-52EACB6E3574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D188F93-7AB8-4562-81FB-52EACB6E3574}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
